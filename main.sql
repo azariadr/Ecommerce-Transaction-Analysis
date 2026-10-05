@@ -33,7 +33,7 @@ ORDER BY
 SELECT
     buyer_id,
     COUNT(1) AS jumlah_transaksi,
-    AVG(total) AS avg_nilai_transaksi,
+    AVG(total) AS avg_nilai_transaksi
 FROM
     orders
 WHERE
